@@ -19,18 +19,19 @@ def main():
 
     # check whether a shape is square or not
     print()  # line break
+
     if is_square():
         print("Yes - this object is square!")
     else:
         print("Sorry... this object is not square.")
 
     # print out the greatest of two numbers
-    print()  # line break
+    #print()  # line break
     greatest = get_greatest()
     print("The largest of the two numbers is {}.".format(greatest))
 
     # print out a person's BMI statistical category
-    print()  # line break!
+    #print()  # line break!
     bmi_category = get_bmi_category()
     print("Your BMI stastical category is {}.".format(bmi_category))
 
